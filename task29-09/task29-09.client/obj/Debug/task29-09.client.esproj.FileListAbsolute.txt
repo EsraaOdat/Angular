@@ -1,0 +1,2 @@
+C:\Users\Orange\Desktop\angular\Angular\task29-09\task29-09.client\obj\Debug\task29-09.client.esproj.CoreCompileInputs.cache
+C:\Users\Orange\Downloads\Angulareee\Angular-main\task29-09\task29-09.client\obj\Debug\task29-09.client.esproj.CoreCompileInputs.cache

@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './about-us.component.css'
 })
 export class AboutUsComponent {
+  num: number = 10
+  name:string="esraa"
+
 
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Orange\\Desktop\\Angular\\Task1_Angular\\Task1_Angular.Server\\Task1_Angular.Server.csproj": {}
+    "C:\\Users\\Orange\\Desktop\\Angular\\Angular\\Task1_Angular\\Task1_Angular.Server\\Task1_Angular.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Orange\\Desktop\\Angular\\Task1_Angular\\Task1_Angular.Server\\Task1_Angular.Server.csproj": {
+    "C:\\Users\\Orange\\Desktop\\Angular\\Angular\\Task1_Angular\\Task1_Angular.Server\\Task1_Angular.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Orange\\Desktop\\Angular\\Task1_Angular\\Task1_Angular.Server\\Task1_Angular.Server.csproj",
+        "projectUniqueName": "C:\\Users\\Orange\\Desktop\\Angular\\Angular\\Task1_Angular\\Task1_Angular.Server\\Task1_Angular.Server.csproj",
         "projectName": "Task1_Angular.Server",
-        "projectPath": "C:\\Users\\Orange\\Desktop\\Angular\\Task1_Angular\\Task1_Angular.Server\\Task1_Angular.Server.csproj",
+        "projectPath": "C:\\Users\\Orange\\Desktop\\Angular\\Angular\\Task1_Angular\\Task1_Angular.Server\\Task1_Angular.Server.csproj",
         "packagesPath": "C:\\Users\\Orange\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Orange\\Desktop\\Angular\\Task1_Angular\\Task1_Angular.Server\\obj\\",
+        "outputPath": "C:\\Users\\Orange\\Desktop\\Angular\\Angular\\Task1_Angular\\Task1_Angular.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,6 +54,26 @@
               "target": "Package",
               "version": "[8.*-*, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -78,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
