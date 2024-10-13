@@ -75,5 +75,19 @@ namespace task29_09.Server.Controllers
             _db.SaveChanges();
             return Ok(service);
         }
+
+        [HttpGet("getImages/{imageName}")]
+        public IActionResult getImage(string imageName)
+        {
+
+            var pathImage = Path.Combine(Directory.GetCurrentDirectory(), "UploadImages", imageName);
+            if (System.IO.File.Exists(pathImage))
+            {
+                return PhysicalFile(pathImage, "image/png");
+            }
+
+            return NotFound();
+        }
+
     }
 }
